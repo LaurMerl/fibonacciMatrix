@@ -1,0 +1,13 @@
+.cell {
+  min-width: 50px;
+  border: 1px solid white;
+
+  &:active {
+    background-color: yellow;
+    transform: translateY(2px);
+  }
+}
+
+.green {
+  background-color: green;
+}
